@@ -1,0 +1,6 @@
+Antes de utilizar la app debes seguir estos pasos:
+1. Abre una ventana de powershell como administrador.
+2. Ejecuta el siguiente comando:
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+"CON ESTE COMANDO HACEMOS QUE SE PUEDAN EJECUTAR LOS SCRIPTS DE POWERSHELL Y TAMBIEN INSTALA EL PAQUETE DE HERRAMIENTAS CHOCOLATEY"
